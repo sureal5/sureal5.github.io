@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>如何创建一个个人博客（免费）</title>
+      <link href="/2023/02/02/My-New-Post/"/>
+      <url>/2023/02/02/My-New-Post/</url>
+      
+        <content type="html"><![CDATA[<p>本文依据<a href="https://zhuanlan.zhihu.com/p/60578464">此文</a>搭建基于hexo+github的博客页面，在此文的基础上编写一些注意事项：</p><p>1、注意在执行命令时应该在桌面的blog文件下打开 git bash</p><p>2、修改_config.yml文件的deployment部分，修改为如下部分：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line"> <span class="attr">repository:</span> <span class="string">https://github.com/这填自己的用户名/这填自己的用户名.github.io.git</span></span><br><span class="line"> <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure><p>先写以上这些，有空在补充</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
